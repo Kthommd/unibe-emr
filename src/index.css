@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: ajustes base para que se vea nítido */
+html, body, #root {
+  height: 100%;
+}
+body {
+  @apply bg-[#211C3B];
+}
